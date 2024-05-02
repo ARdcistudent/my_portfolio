@@ -1,27 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <!-- schöne, englische Schriftart suchen und einbinden! -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&family=Protest+Strike&display=swap" rel="stylesheet">
+<style>
+    html {
+        font-family: "Mooli", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+</style>
     <meta charset="UTF-8">
+    <meta content-language="en, de">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A webpage that gives informations and entertainment for males they are up to live a life as a gentleman">
+    <meta name="keywords" content="style, englische möbel, english mobiliar, parfüms, spirits, clothes for men, genußmittel, luxury foods, luxury drinks, luxury cigarrs, Reisen, travel, #firstclasslifestyle">
+    <meta name="author" content="André Rühmling">
     <link rel="stylesheet" href="./style_start.css">
     <!-- SEITENNAME FESTLEGEN!!! -->
     <title>????NAME???? | Start</title>
 </head>
 <body>
-    <main>
-    <h2>Willkommen | Welcome</h2>
-    <h3>Bitte wählen Sie Ihre präferierte Sprache aus!</h3>
-    <h3>Please choose your preferred language!</h3>
-    <div class="flexbox">
-        <a href="" aria-describedby="german_flag"><img src="./img/german_flag.png" alt="Deutsche Flagge in schwarz, rot und gold" class="chose_flag"></a>
-        <a href="" aria-describedby="british_flag"><img src="./img/gb_flag.png" alt="The british flag also known as the union jack" class="chose_flag"></a>
-    </div>
-    <div id="german_flag" style="display: none;">Nutzten Sie diesen Link um auf die deutschsprachige Seite zu gelangen</div>
-    <div id="british_flag" style="display: none;">Use this link to head to the english version of the site</div>
+        <!-- Cookie accept hinzufügen! -->
 
-<!-- Cookie accept hinzufügen! -->
-</main>
+    <main>
+        <h2>Willkommen | Welcome</h2>
+        <h3>Bitte wählen Sie Ihre präferierte Sprache aus!</h3>
+        <h3>Please choose your preferred language!</h3>
+        <div class="flexbox">
+            <a href="./de/index_de.html" aria-describedby="german_flag"><img src="./img/german_flag.png" alt="Deutsche Flagge in schwarz, rot und gold" class="chose_flag"></a>
+            <a href="./en/index_en.html" aria-describedby="british_flag"><img src="./img/gb_flag.png" alt="The british flag also known as the union jack" class="chose_flag"></a>
+        </div>
+        <div id="german_flag" style="display: none;">Nutzten Sie diesen Link um auf die deutschsprachige Seite zu gelangen</div>
+        <div id="british_flag" style="display: none;">Use this link to head to the english version of the site</div>
+    </main>
+    <footer>
+        <div class="flexbox">
+            <!-- WAPPEN BEARBEITEN! -->
+            <img id="wappen" src="./img/wappen.png" alt="Familienwappen">
+        </div>
+    </footer>
 </body>
 </html>

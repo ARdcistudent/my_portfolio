@@ -1,0 +1,11 @@
+body{
+    background: linear-gradient(90deg, darkgreen, gold, gold, darkgreen)
+}
+main{
+    width: 70vw;
+    margin: 0 auto;
+}
+.flexbox{
+    display: flex;
+    justify-content: space-around;
+}

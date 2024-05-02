@@ -1,6 +1,8 @@
 body{
     text-align: center;
-    background: linear-gradient(90deg, darkgreen, gold, gold, darkgreen)
+    background: linear-gradient(90deg, darkgreen, gold, gold, darkgreen);
+    width: 70vw;
+    margin: 0 auto;
 }
 .flexbox{
     display: flex;
@@ -8,9 +10,19 @@ body{
 }
 
 .chose_flag{
-    width: 300px;
+    width: 20vw;
     height: 150px;
     border: 4px solid black;
     border-radius: 20px;
-    margin-top: 10%;
+    margin-top: 15%;
+}
+.chose_flag:hover{
+    border: 4px solid lightseagreen;
+}
+
+footer{
+    margin-top: 5vh;
+}
+#wappen{
+    width: 15vw;
 }
