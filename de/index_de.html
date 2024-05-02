@@ -1,13 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&family=Protest+Strike&display=swap" rel="stylesheet">
+<style>
+    html {
+        font-family: "Mooli", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+</style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <meta name="description" content="A webpage that gives informations and entertainment for males they are up to live a life as a gentleman">
+    <meta name="keywords" content="style, englische möbel, english mobiliar, parfüms, spirits, clothes for men, genußmittel, luxury foods, luxury drinks, luxury cigarrs, Reisen, travel, #firstclasslifestyle">
+    <meta name="author" content="André Rühmling">
+    <link rel="stylesheet" href="../main_style.css">
+    <title>Gentlemans Life | HOME DE</title>
 </head>
 <body>
-    
-    <header> das ist header</header>
+    <header>
+        <div class="headwriting">
+            <h1>Gentlemans Life</h1>
+            <h3>Live Your Life Like A Gentleman!</h3>
+        </div>
+    </header>
+    <!-- Die funktionen "open_on_click" und "open_on_hover" später mit JS einbauen!!! -->
+    <nav>
+        <p>Navigation</p>
+        <ul class="open_on_click">
+            <li><a href="">Men's Lifestyle</a></li>
+            <li><a href="">Gentlemans Knigge</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Empfehlungen</a>
+                <ul class="open_on_hover">
+                    <li><a href="">Parfüms</a></li>
+                    <li><a href="">Genußmittel</a>
+                        <ul>
+                            <li><a href="">Zigarren</a></li>
+                            <li><a href="">Pfeifen & Tabak</a></li>
+                            <li><a href="">Alkoholika</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Möbel</a></li>
+                    <li><a href="">Reiseziele</a></li>
+                </ul>
+            </li>
+            <li><a href="">Gentlemans Shop</a></li>
+            <li><a href="">Meine Firma</a></li>
+        </ul>
+    </nav>
+    <aside id="side_left"></aside>
+    <main></main>
+    <aside id="side_right"></aside>
+
+    <footer>
+        <div class="flexbox_footer">
+            <ul>
+                <li><a href="impressum_de.html">Impressum</a></li>
+                <li>|</li>
+                <li><a href="rechtliches_de.html">Rechtliche Hinweise</a></li>
+            </ul>
+            <img id="wappen" src="../img/wappen.png" alt="Familienwappen">
+            <p>© 2024/2025 | André Rühmling</p>
+        </div>
+    </footer>
 </body>
 </html>
